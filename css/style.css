@@ -10,8 +10,262 @@ body{
 }
 
 .general{
-  width: 80%;
-  height: 1000px;
+  width: 70%;
   margin: auto;
-  background-color: yellow;
+  border-right: 1px solid lightgrey;
+  color: #33475b;
 }
+
+/* /general-rules */
+
+/* reusable-classes */
+.float-right{
+  float: right;
+}
+
+.float-right::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-left::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+
+/* /reusable-classes */
+
+/* header-top */
+
+.actions{
+  border-bottom: 2px solid #33475b;
+}
+
+
+* a, * li{
+font-size: 17px;
+text-transform: capitalize;
+text-decoration: none;
+}
+
+#lang-choice::before{
+font-family: "FontAwesome";
+content: "\f7a2";
+padding-right: 5px;
+}
+
+.chevron-aft::after{
+  font-family: "FontAwesome";
+  content: "\f078";
+  padding-right: 3px;
+}
+
+.language-choice{
+  padding-right: 1vw;
+}
+
+#contact-us::before{
+  background-image: url(../vertical-bar.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#contact-us{
+  padding-left: 20px;
+  border-left: 2px solid grey;
+}
+
+
+/* beginn.actions-right */
+
+#search{
+  color: #00a6c0;
+}
+
+#trans-button{
+  color: #ff7a59;
+  text-transform:none;
+  border: 1.5px solid #ff7a59;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.orange-button{
+  width: 5%;
+  height: 2%;
+  border: 0.75vw solid #ff7a59;
+  background-color: #ff7a59;
+  border-radius: 5px;
+  color: white;
+}
+
+.actions-left{
+  line-height: 9vh;
+  position: relative;
+}
+
+.actions-right{
+  position: absolute;
+  bottom: 95%;
+  right: 15%;
+  display: block;
+}
+
+
+/* beginn.infos */
+
+ #logo{
+   display: block;
+   height: 8vh;
+   background-image: url(../img/logo.svg);
+   background-repeat: no-repeat;
+   background-size: 9%;
+   margin-top: 2vh;
+}
+
+#header-middle{
+ list-style-type: none;
+ position: relative;
+ bottom: 7vh;
+ right: 2vw;
+
+}
+
+li {
+ display: inline;
+ padding-right: 2.5vw;
+}
+
+.chevron-aft::after{
+  font-family: "FontAwesome";
+  content: "\f078";
+  padding-right: 3px;
+}
+/* /header-middle */
+
+.jumbotron{
+  height: 96vh;
+  width: 70vw;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: 98.9%;
+}
+
+#leading-subscr{
+  width: 25vw;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 250%;
+  padding-top: 12%;
+  padding-bottom: 6%
+}
+
+p:first-of-type{
+  line-height: 1.6;
+  margin-bottom: 4vh;
+}
+
+
+#repaire-desperate{
+  width: 10vw;
+  border: 5px solid orange;
+}
+
+#p-small{
+  margin-top: 4vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* i'm too lazy to scrool */
