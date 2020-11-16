@@ -44,6 +44,10 @@ body{
   width: 100vw;
 }
 
+h2{
+  font-size: 6vh;
+}
+
 h3{
   font-size: 3.5vh;
   height: 4vh;
@@ -197,7 +201,9 @@ main div[class|=container]{
 
 
 main div[class|=box]{
-  height: 128vh;
+  height: 100vh;
+  text-align: center;
+  padding: 5vh 2vw;
 }
 
 .header-service-offers{
@@ -291,10 +297,6 @@ font-size: 6vh;
  margin-bottom: 5vh;
 }
 
- .box-marketing, .box-sales, .box-service-software{
-  text-align: center;
-  padding: 5vh 2vw;
-}
 
 .top-marketing, .top-sales, .top-service-software{
   padding-bottom: 10vh;
@@ -313,14 +315,43 @@ font-size: 6vh;
 .orange-button-hub{
 margin-left: 4.5vw;;
 }
-.hub h4{
-  text-align: center;
-}
+
 
 .general-container-services{
   width: 100vw;
   background-color: #e6ebee;
 }
+
+/* green data */
+
+.cont-green-data{
+  width: 100vw;
+  background-color: #00abb6;
+}
+
+.green-data{
+  width: 66vw;
+  height:80vh;
+  padding: 10vh 10%;
+
+}
+
+.header-green-data{
+  width: 80vw;
+  margin:auto;
+  text-align: center;
+}
+
+.header-green-data p{
+  margin: 5vh 0;
+  font-size: 3vh;
+}
+
+.header-green-data h2, p{
+  color:white
+}
+
+
 
 /* DEBUG:  */
 
